@@ -15,16 +15,16 @@ Add getter methods of each module of the store object as computed properties of 
 property of a module is mutated, the updated state will output & render into component tree, automatically.
 
 ## Table of contents
-1. [Commit messages](#)
-2. [Action dispatch](#)
-3. [ModuleCollection - recursive datatype](#)
-4. [Getters](#)
+1. [Commit messages](#demo1-commit-messagessource)
+2. [Action dispatch](#demo2-action-dispatchsource)
+3. [ModuleCollection - recursive datatype](#demo3-modulecollection---recursive-datatypesource)
+4. [Getters](#demo4-getterssource)
 
 
-## Commit messages([Source](https://))
+## Demo1: Commit messages([Source](https://github.com/21hook/vuex-mechanism/tree/master/demo1))
 
 
-## Action dispatch([Source](https://))
+## Demo2: Action dispatch([Source](https://github.com/21hook/vuex-mechanism/tree/master/demo2))
 1. Define Subject and Observer class
 2. when a subject object change state, all registered observers are notified and
 updated automatically.
@@ -33,9 +33,9 @@ Vue components dispatch actions to commit the mutations, each of which will muta
 the state; When the state is changed, the listeners in the Vue components subscribed the change will be 
 notified & updated, & render the component tree.
 
-## ModuleCollection - recursive datatype([Source](https://))
+## Demo3: ModuleCollection - recursive datatype([Source](https://github.com/21hook/vuex-mechanism/tree/master/demo3))
 
-## Getters([Source](https://))
+## Demo4: Getters([Source](https://github.com/21hook/vuex-mechanism/tree/master/demo4))
 
 ## Vuex architecture
 1. 
