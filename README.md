@@ -1,6 +1,9 @@
 # Vuex Patterns
 > Design patterns in Vuex
 
+## Key concepts
+publish-subscriber pattern, recursive data type  
+
 ## Mechanisms
 Define a fn subscriber of the store object, providing a function to be called when the store object is committed.
 Define a list of actions to be dispatched, commit the action type & payload data to the development tool when 
