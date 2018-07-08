@@ -18,10 +18,10 @@ property of a module is mutated, the updated state will output & render into com
 4. [Getters](#)
 
 
-## Commit messages([Source](https://))
+## Demo1: Commit messages([Source](https://))
 
 
-## Action dispatch([Source](https://))
+## Demo2: Action dispatch([Source](https://))
 1. Define Subject and Observer class
 2. when a subject object change state, all registered observers are notified and
 updated automatically.
@@ -30,9 +30,9 @@ Vue components dispatch actions to commit the mutations, each of which will muta
 the state; When the state is changed, the listeners in the Vue components subscribed the change will be 
 notified & updated, & render the component tree.
 
-## ModuleCollection - recursive datatype([Source](https://))
+## Demo3: ModuleCollection - recursive datatype([Source](https://))
 
-## Getters([Source](https://))
+## Demo4: Getters([Source](https://))
 
 ## Vuex architecture
 1. 
