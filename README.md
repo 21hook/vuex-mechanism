@@ -1,6 +1,8 @@
 # Vuex Patterns
 > Design patterns in Vuex
 
+[README 中文](https://github.com/21hook/vuex-mechanism/blob/master/README-zh_cn.md)
+
 ## Key concepts
 publish-subscriber pattern, recursive data type  
 
