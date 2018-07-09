@@ -38,7 +38,7 @@ module collection对象的constructor case使用module对象作为其子节点�
 
 ## Demo4: Getters([Source](https://github.com/21hook/vuex-mechanism/tree/master/demo4))
 将存储的每个模块的getter添加为Vue组件的计算属性。
-当修改模块的状态属性时，更新状态将自动地输出和渲染到组件树中。(单数据绑定)
+当修改模块的状态属性时，更新状态将自动地输出和渲染到组件树中。(单向数据绑定)
 
 ## Vuex architecture
 1. 
