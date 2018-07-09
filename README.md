@@ -28,10 +28,9 @@ Define a fn subscriber of a store object. When the store is committed, the fn ha
 emit the mutation message & arg to the development tool. Then the development tool
 trigger the mutation handler, show the update state.
 
-## Demo2: Action dispatch(分发指令，动作)([Source](https://github.com/21hook/vuex-mechanism/tree/master/demo2))
-Define a list of actions to be dispatched. When a action is dispatched, the action type &
-payload data are committed into the development too. The committed action will be triggered, and
-the update state will send to the development tool 
+## Demo2: Action dispatch(分发/下发指令，动作)([Source](https://github.com/21hook/vuex-mechanism/tree/master/demo2))
+Define a list of actions to be dispatched. The action is dispatched, then the action type &
+payload data are committed into the development too.
 
 ## Demo3: ModuleCollection - recursive datatype([Source](https://github.com/21hook/vuex-mechanism/tree/master/demo3))
 Define a ModuleCollection class, which store a ref to a recursive datatype using a module object
@@ -51,9 +50,7 @@ Add Vue components as subscribers of the store state,
 ```             
                add                       trigger  
     State -------------> Vue components - - - - -> Users
-      |                        |
-       ----------------------->
-          output & render                            
+                           
 ```
 
 2. 
