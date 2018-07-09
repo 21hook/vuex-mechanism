@@ -8,7 +8,7 @@
 
 ## 原理
 定义store对象的fn订阅者，提供在commit store对象时要调用的回调函数。
-定义要分发/派遣的action列表，将action类型和(payload)[https://en.wikipedia.org/wiki/Payload_(computing)] data提交给开发者工具
+定义要分发/派遣的action列表，将action类型和[payload](https://en.wikipedia.org/wiki/Payload_(computing)) data提交给开发者工具
 当存储对象被提交的时候。
 创建一个ModuleCollection类，它是一个递归数据类型。实现一个Module类包括以下
 字段:actions、mutations和getters作为base case。实现ModuleCollection类，递归地添加每个模块
