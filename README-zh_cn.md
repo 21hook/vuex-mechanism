@@ -46,9 +46,7 @@ module collection对象的constructor case使用module对象作为其子节点�
 ```             
                add                       trigger  
     State -------------> Vue components - - - - -> Users
-      |                        |
-       ----------------------->
-          output & render                            
+                       
 ```
 
 2. 
