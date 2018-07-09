@@ -41,12 +41,12 @@ class Store {
 function installModule (store, rootState, path, module) {
     const namespace = store._modules.getNamespace(path)
 
+    // base case
     // register in namespace map
     if (module.namespaced) {
         store._modulesNamespaceMap[namespace] = module
     }
 
-    // register the module action/mutation/getter of a module(conquer part)
     const local = module.context = makeLocalContext(store, namespace, path)
 
     module.forEachMutation((mutation, key) => {

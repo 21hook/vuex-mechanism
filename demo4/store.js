@@ -26,7 +26,7 @@ class Store {
 /* module private members */
 /**
  * Add getter methods of each module of the store object as computed properties of the Vue components,
- * & when mutating the state property of the module, the updated state will output & render into component
+ * & when mutating the state property of the module, the update state will output & render into the component
  * tree, automatically.
  */
 function resetStoreVM (store, state) {
