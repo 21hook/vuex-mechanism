@@ -52,11 +52,11 @@ module collection对象的constructor case使用module对象作为其子节点�
 2. 
 下发actions, 发布mutations, &渲染组件
 ```         
-                    dispatch            commit               emit  
+                    trigger            dispatch             commit  
     Vue components ----------> Actions --------> Mutations - - - -> Development tool
         |                                             |
          <------------------    State  <--------------
-            output & render                mutate              
+                render                     mutate              
     
 ```
 
