@@ -56,7 +56,7 @@ Add Vue components as subscribers of the store state,
 2. 
 Dispatch actions, emit mutations, & render components
 ```         
-                    trigger            dispatch             commit  
+                    dispatch            commit              emit  
     Vue components ----------> Actions --------> Mutations - - - -> Development tool
         |                                             |
          <------------------    State  <--------------
