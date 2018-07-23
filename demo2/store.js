@@ -23,7 +23,7 @@ class Store {
 
     // instance methods
     /**
-     * Trigger the action.
+     * Dispatch the action & payload data, or trigger the action.
      */
     dispatch (_type, _payload) {
         // check object-style dispatch
