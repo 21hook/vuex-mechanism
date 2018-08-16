@@ -1,5 +1,5 @@
-# Vuex Patterns
-> Vuex中的设计模式
+# Vuex
+> vuex实现原理
 
 [README English](https://github.com/21hook/vuex-mechanism/blob/master/README.md)
 
