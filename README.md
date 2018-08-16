@@ -1,5 +1,5 @@
 # Vuex Patterns
-> Design patterns in Vuex
+> vuex implementation mechanism
 
 [README 中文](https://github.com/21hook/vuex-mechanism/blob/master/README-zh_cn.md)
 
